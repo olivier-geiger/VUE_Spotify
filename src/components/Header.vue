@@ -18,7 +18,7 @@
         ></path>
       </svg>
 
-      <a class="text-dark font-bold uppercase text-2xl mr-4" href="#">SpotifVue</a>
+      <a class="text-dark font-bold text-2xl mr-4" href="#">SpotifVue</a>
 
       <div class="flex flex-grow items-center">
         <!-- Primary Navigation -->
