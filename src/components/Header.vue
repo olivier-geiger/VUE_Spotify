@@ -25,7 +25,9 @@
         <ul class="flex flex-row mt-1">
           <!-- Navigation Links -->
           <li>
-            <a class="px-2 text-dark" href="#">Se connecter / S'enregistrer</a>
+            <a class="px-2 text-dark" href="#" @click.prevent="toggleAuthModal">
+              Se connecter / S'enregistrer
+            </a>
           </li>
           <li>
             <a class="px-2 text-dark" href="#">Admin</a>
@@ -37,9 +39,17 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex';
+
 export default {
   name: 'Header',
+  methods: {
+    ...mapMutations(['toggleAuthModal']),
+    // toggleAuthModal() {
+    //   this.$store.commit('toggleAuthModal');
+    // },
+  },
 };
 </script>
 
-<style></style>
+
