@@ -128,7 +128,7 @@
             <!-- TOS -->
             <div class="mb-3 pl-6">
               <input type="checkbox" class="w-4 h-4 float-left -ml-6 mt-1 rounded" />
-              <label class="inline-block">Accepter les conditions</label>
+              <label class="inline-block text-blue-400">Accepter les conditions</label>
             </div>
             <button type="submit"
               class="block w-full text-white py-1.5 px-3 rounded transition
